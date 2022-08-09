@@ -4,9 +4,9 @@ var textOutput = document.querySelector("#text-output")
 
 var serverURL = "https://api.funtranslations.com/translate/minion.json";
 
-function getTranslationURL(text)
+function getTranslationURL(input)
 {
-    return serverURL + "?" + "text=" + text;
+    return serverURL + "?" + "text=" + input;
                     //query    key      value
 }
 
@@ -22,7 +22,7 @@ function clickHandler()
     var inputText = textInput.value;
 
     fetch(getTranslationURL(inputText))
-    .then(respone => respone.json())
+    .then(response => response.json())
     .then(function logJSON(json){
         var translatedText = json.contents.translated;
         textOutput.innerText = translatedText;
