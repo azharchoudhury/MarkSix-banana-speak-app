@@ -15,17 +15,6 @@ body {
     font-family: 'Kalam', cursive;   
 }
 
-/* .body-div{
-    height: 100%;
-    background: url(images/new_image.png);
-    background-size: 100%;
-
-} */
-
-
-
-
-
 #navigation {
     background-color: var(--primary-color);
     font-size: 2rem;
@@ -33,64 +22,37 @@ body {
     text-align: center;
 }
 
-/* main{
-    padding: 1rem;
-    margin: 1rem 5rem;
-    align-content: center;
-} */
-
 main {
     margin: auto;
     max-width: 600px;
-    /* outline: 2px solid black; */
 }
 
 #text-input {
-    /* border: 1px solid blue;
-    width: 900px;
-    height: 100px;
-    display: block;
-    margin: 2rem auto 1rem;
-    font-weight: bold;
-    color: red; */
-
     box-sizing: border-box;
     display: block;
     max-width: 600px;
     width: 100%;
     min-height: 20vh;
     margin-top: 2rem;
-    /* padding: 1rem; */
     padding: 0.5rem;
     font-family: 'Kalam', cursive;
     font-size: 1.5rem; 
-
 }
 
 ::placeholder {
     font-size: 1.25rem;
     font-family: 'Kalam', cursive; 
-
 }
 
 #translate-button {
-    /* cursor: pointer; */
     margin-top: 1.5rem;
     padding: 1rem;
     display: block;
     background-color: var(--primary-color);
     color:  black;
-    /* border-color: var(--primary-color); */
-    /* border: none; */
     font-size: large;
     font-family: 'Kalam', cursive; 
 }
-
-/* #translate-button:hover, 
-#translate-button:focus{
-    font-weight: bold;
-} */
-
 
 
 #div-trans {
@@ -105,7 +67,6 @@ main {
     border: 1.3px solid black;
     width: 100%;
     height: 80px;
-    /* padding: 1rem; */
     display: block;
     margin: auto;
     margin-bottom: 4rem;
@@ -115,8 +76,6 @@ main {
 }
 
 footer{
-
-    /* margin-top: auto; */
     width: 100%;
     display: block;
     background-color: var(--primary-color);
